@@ -1,2 +1,3 @@
 
 export const SET_RUNTIME_VARIABLE = 'SET_RUNTIME_VARIABLE';
+export const GET_LIST = 'GET_LIST';

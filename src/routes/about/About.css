@@ -1,7 +1,10 @@
 
 .root{
   padding: 8px;
-  .header{
-    margin: 5px;
-  }
+}
+.header{
+  margin: 5px;
+}
+.item{
+  padding:20px;border:1px solid #e8e8e8;
 }

@@ -7,7 +7,7 @@ export default {
   async action() {
 
     const About = await new Promise((resolve) => {
-      require.ensure([], (require) => resolve(require('./About').default), 'about');
+      require.ensure([], (require) => resolve(require('./AboutBox').default), 'about');
     })
 
     return {
