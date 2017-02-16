@@ -12,6 +12,6 @@ function list(state = [],action){
 }
 
 export default combineReducers({
+  list,
   runtime,
-  list
 })
